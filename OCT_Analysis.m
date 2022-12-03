@@ -1,4 +1,4 @@
-function [ Xaxis, Depth ] = OCT_Analyse( OCT_Signal, Ref, Lambda)
+function [ Xaxis, Depth ] = OCT_Analyse( OCT_Signal, Ref, Lambda)  %OCT_Signal: Interference spectrom. Ref: An average of many interfernce spectrum. Lambda: wavelength
 fspectrum = fftshift(fft(OCT_Signal-Ref));    %remove background
 padorder = 4; %zero padding's order
 padBord = length(fspectrum)*padorder;
