@@ -9,4 +9,8 @@ This code developed by me as a part of my MSc thesis and for doing that, I used 
 If there was a comment about that, please feel free to contact me.
 
 Bests,
+
+
 Kamal
+
+kamal.heidary96@gmail.com
